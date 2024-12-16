@@ -63,7 +63,7 @@ directed graph.
 
 Here is an example of a directed graph:
 
-![DAG](https://www.researchgate.net/profile/Soumendu-Sarkar-2/publication/329453849/figure/fig3/AS:700941099626497@1544128789576/A-cycle-of-length-5-G-SO-in-blue_Q320.jpg)
+![DAG]([https://www.researchgate.net/profile/Soumendu-Sarkar-2/publication/329453849/figure/fig3/AS:700941099626497@1544128789576/A-cycle-of-length-5-G-SO-in-blue_Q320.jpg](https://media.geeksforgeeks.org/wp-content/uploads/20230306153646/cyclic-graphdrawio.png))
 
 ### Breadth First Search (BFS):
 
