@@ -1,7 +1,6 @@
 # Graph Algorithms 
 
 ## Purpose
-
 I wrote my own implementations of these graph algorithms to better understand
 how graph algorithms work.
 
