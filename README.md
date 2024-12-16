@@ -1,8 +1,8 @@
-# Graph Algorithms :fire: :fire:
+# Graph Algorithms 
 
 ![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-![Undirected Graph](images/simple-graph.png)
+![Undirected Graph]([images/simple-graph.png](https://ds055uzetaobb.cloudfront.net/brioche/uploads/9NiHeGq6rf-2000px-petersen_graph_3-coloringsvg.png?width=1200))
 
 C++ implementations of various graph algorithms such as: Graph Traversals
 (BFS, DFS), Topological Sort, Shortest Path, and Minimum Spanning Trees.
