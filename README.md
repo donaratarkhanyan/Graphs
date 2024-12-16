@@ -13,7 +13,6 @@ This repository contains everything you could be tested with regards to
 graph theory in a technical interview.
 
 ## Introduction to Graphs
-
 ### Basic Definition
 * A graph, *G* is an ordered pair of the form, `G = (V, E)` where *V* is a set
 of vertices and *E* is a set of edges through which vertices are connected.
