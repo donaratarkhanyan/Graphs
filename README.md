@@ -1,8 +1,6 @@
 # Graph Algorithms
 
-![MIT](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVertex_%2528graph_theory%2529&psig=AOvVaw2Lk119LBEQ8t8GoEoCvwsl&ust=1734428398415000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOiPmbn_q4oDFQAAAAAdAAAAABAJ)
-
-![Undirected Graph](https://www.tutorialspoint.com/discrete_mathematics/images/graph.jpg)
+![MIT](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Petersen_graph_3-coloring.svg/640px-Petersen_graph_3-coloring.svg.png)
 
 C++ implementations of various graph algorithms such as: Graph Traversals
 (BFS, DFS), Topological Sort, Shortest Path, and Minimum Spanning Trees.
@@ -29,11 +27,11 @@ A graph may be _directed_ or _undirected_.
 
 Here is an example of a simple undirected graph:
 
-![Undirected Graph](images/undirected-graph.png)
+![Undirected Graph](https://www.researchgate.net/publication/310953177/figure/fig2/AS:667818202763266@1536231675149/The-transmission-regular-but-not-degree-regular-graph-with-the-smallest-order.png)
 
 Here is a simple directed graph:
 
-![Directed Graph](images/directed-graph.png)
+![Directed Graph](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Directed_graph_no_background.svg/1200px-Directed_graph_no_background.svg.png)
 
 ### Sparse vs Dense Graphs
 
@@ -49,14 +47,14 @@ of vertices in the graph.
 
 Here is a connected graph:
 
-![Connected Graph](images/connected-graph.png)
+![Connected Graph](https://myalgo.wordpress.com/wp-content/uploads/2010/09/connected.png?w=584)
 
 * A graph is said to be **strongly connected** if every vertex can be reached
 from every other vertex.
 
 Here is a strongly connected graph:
 
-![Strongly Connected Graph](images/strongly-connected.png)
+![Strongly Connected Graph](https://upload.wikimedia.org/wikipedia/commons/e/e1/Scc-1.svg)
 
 ### Cycles in Graphs
 
@@ -65,7 +63,7 @@ directed graph.
 
 Here is an example of a directed graph:
 
-![DAG](images/DAG.png)
+![DAG](https://www.researchgate.net/profile/Soumendu-Sarkar-2/publication/329453849/figure/fig3/AS:700941099626497@1544128789576/A-cycle-of-length-5-G-SO-in-blue_Q320.jpg)
 
 ### Breadth First Search (BFS):
 
