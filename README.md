@@ -27,11 +27,11 @@ A graph may be _directed_ or _undirected_.
 
 Here is an example of a simple undirected graph:
 
-![Undirected Graph](https://www.researchgate.net/publication/310953177/figure/fig2/AS:667818202763266@1536231675149/The-transmission-regular-but-not-degree-regular-graph-with-the-smallest-order.png)
+![Undirected Graph]([https://www.researchgate.net/publication/310953177/figure/fig2/AS:667818202763266@1536231675149/The-transmission-regular-but-not-degree-regular-graph-with-the-smallest-order.png](https://media.geeksforgeeks.org/wp-content/cdn-uploads/cycleGraph-300x156.png))
 
 Here is a simple directed graph:
 
-![Directed Graph](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Directed_graph_no_background.svg/1200px-Directed_graph_no_background.svg.png)
+![Directed Graph](https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png)
 
 ### Sparse vs Dense Graphs
 
