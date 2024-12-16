@@ -1,8 +1,8 @@
 # Graph Algorithms
 
-![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
+![MIT](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVertex_%2528graph_theory%2529&psig=AOvVaw2Lk119LBEQ8t8GoEoCvwsl&ust=1734428398415000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOiPmbn_q4oDFQAAAAAdAAAAABAJ)
 
-![Undirected Graph](images/simple-graph.png)
+![Undirected Graph](https://www.tutorialspoint.com/discrete_mathematics/images/graph.jpg)
 
 C++ implementations of various graph algorithms such as: Graph Traversals
 (BFS, DFS), Topological Sort, Shortest Path, and Minimum Spanning Trees.
