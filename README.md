@@ -1,6 +1,6 @@
 # Graph Algorithms 
 
-![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
+![MIT]([https://img.shields.io/github/license/mashape/apistatus.svg](https://ds055uzetaobb.cloudfront.net/brioche/uploads/9NiHeGq6rf-2000px-petersen_graph_3-coloringsvg.png?width=1200))
 
 ![Undirected Graph]([images/simple-graph.png](https://ds055uzetaobb.cloudfront.net/brioche/uploads/9NiHeGq6rf-2000px-petersen_graph_3-coloringsvg.png?width=1200))
 
