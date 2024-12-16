@@ -20,13 +20,13 @@ graph theory in a technical interview.
 of vertices and *E* is a set of edges through which vertices are connected.
 A graph may be _directed_ or _undirected_.
 
-Here is an example of a simple undirected graph:
+Here is an example of a simple undirected graph: https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png
 
-![Undirected Graph](images/undirected-graph.png)
+![Undirected Graph](https://media.geeksforgeeks.org/wp-content/cdn-uploads/cycleGraph-300x156.png)
 
 Here is a simple directed graph:
 
-![Directed Graph](images/directed-graph.png)
+![Directed Graph](https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png)
 
 ### Sparse vs Dense Graphs
 
@@ -42,14 +42,14 @@ of vertices in the graph.
 
 Here is a connected graph:
 
-![Connected Graph](images/connected-graph.png)
+![Connected Graph](https://media.geeksforgeeks.org/wp-content/uploads/20230310161825/4connecteddrawio.png)
 
 * A graph is said to be **strongly connected** if every vertex can be reached
 from every other vertex.
 
 Here is a strongly connected graph:
 
-![Strongly Connected Graph](images/strongly-connected.png)
+![Strongly Connected Graph](https://media.geeksforgeeks.org/wp-content/uploads/20230801122248/scc_fianldrawio.png)
 
 ### Cycles in Graphs
 
@@ -58,7 +58,7 @@ directed graph.
 
 Here is an example of a directed graph:
 
-![DAG](images/DAG.png)
+![DAG](https://media.geeksforgeeks.org/wp-content/uploads/20230306153646/cyclic-graphdrawio.png)
 
 ### Breadth First Search (BFS):
 
