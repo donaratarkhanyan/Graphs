@@ -20,7 +20,7 @@ graph theory in a technical interview.
 of vertices and *E* is a set of edges through which vertices are connected.
 A graph may be _directed_ or _undirected_.
 
-Here is an example of a simple undirected graph: https://media.geeksforgeeks.org/wp-content/cdn-uploads/SCC1.png
+Here is an example of a simple undirected graph:
 
 ![Undirected Graph](https://media.geeksforgeeks.org/wp-content/cdn-uploads/cycleGraph-300x156.png)
 
@@ -148,9 +148,3 @@ the overall time complexity is *O(|V| + |E|log|V|)*.
 | **Topological Sort** 				| *O(V + E)*						| Use when graph is a _DAG_					|
 | **Dijkstra's Algorithm** 			| *O(V + ElogV)*						|Implemented using a min priority queue|
 | **Prim's Algorithm** 				| *O(V + ElogV)*						|Implemented using a min priority queue|
-
-
-
-## References
-
-* GIFs are taken from [here](https://github.com/kdn251/interviews).
