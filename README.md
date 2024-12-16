@@ -1,8 +1,8 @@
 # Graph Algorithms :fire: :fire:
 
-![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)
+![MIT][https://img.shields.io/github/license/mashape/apistatus.svg]
 
-![Undirected Graph](images/simple-graph.png)
+![Undirected Graph][images/simple-graph.png]
 
 C++ implementations of various graph algorithms such as: Graph Traversals
 (BFS, DFS), Topological Sort, Shortest Path, and Minimum Spanning Trees.
@@ -29,11 +29,11 @@ A graph may be _directed_ or _undirected_.
 
 Here is an example of a simple undirected graph:
 
-![Undirected Graph](images/undirected-graph.png)
+![Undirected Graph][images/undirected-graph.png]
 
 Here is a simple directed graph:
 
-![Directed Graph](images/directed-graph.png)
+![Directed Graph][images/directed-graph.png]
 
 ### Sparse vs Dense Graphs
 
@@ -49,55 +49,55 @@ of vertices in the graph.
 
 Here is a connected graph:
 
-![Connected Graph](images/connected-graph.png)
+![Connected Graph][images/connected-graph.png]
 
 * A graph is said to be **strongly connected** if every vertex can be reached
 from every other vertex.
 
 Here is a strongly connected graph:
 
-![Strongly Connected Graph](images/strongly-connected.png)
+![Strongly Connected Graph][images/strongly-connected.png]
 
 ### Cycles in Graphs
-
+OAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOA
 A directed graph is said to be **acyclic** if there are no loops within the
-directed graph.
+OAOAOAOAOAdirected graph.
 
 Here is an example of a directed graph:
+OAOAOAOA
+OAOAOA![DAG][images/DAG.png]
+OAOA
+OAOA### Breadth First Search (BFS):
 
-![DAG](images/DAG.png)
-
-### Breadth First Search (BFS):
-
-BFS is one of the most common and widely used traversing algorithms for graphs.
-As the name suggests, you traverse the graph in layers. Start BFS from an
-arbitrary vertex thus exploring its neighboring nodes. Continue to do this till
-you have traversed all of the vertices in the graph. The fundamental idea behind
+OABFS is one of the most common and widely used traversing algorithms for graphs.
+OAAs the name suggests, you traverse the graph in layers. Start BFS from an
+OAarbitrary vertex thus exploring its neighboring nodes. Continue to do this till
+OAyou have traversed all of the vertices in the graph. The fundamental idea behind
 a BFS traversal is that you must visit the vertex exactly once! To do this, just
-mark which vertex you have visited and which one's you haven't using an array.
-To visit neighboring vertices, we make use of a queue. Since we enqueue each
+OAmark which vertex you have visited and which one's you haven't using an array.
+OATo visit neighboring vertices, we make use of a queue. Since we enqueue each
 vertex at most once, the overall time complexity is *O(|V| + |E|)*.
 
 ### Depth First Search (DFS):
 
-Depth First Search is one of the most common recursive algorithm for graph
-traversals. The idea behind DFS is to go as far as possible and then backtrack.
-Once you have reached a vertex with no more neighbors that are unvisited, you
-go backwards to find a vertex that still has unvisited neighbors.
+OADepth First Search is one of the most common recursive algorithm for graph
+OAtraversals. The idea behind DFS is to go as far as possible and then backtrack.
+OAOnce you have reached a vertex with no more neighbors that are unvisited, you
+OAgo backwards to find a vertex that still has unvisited neighbors.
 
 If you're not a fan of recursion, the DFS algorithm can be implemented by just
 altering the BFS code. Instead of using a queue, you would use a stack.
 The LIFO feature of a stack allows us to go as far as possible and then lets us
-backtrack. Graph traversals really depend on the data structure you use.
+OAbacktrack. Graph traversals really depend on the data structure you use.
 The overall time complexity remains the same - *O(|V| + |E|)*.
 
 
-![BFS vs DFS](https://raw.githubusercontent.com/kdn251/interviews/master/images/dfsbfs.gif)
-
+![BFS vs DFS][https://raw.githubusercontent.com/kdn251/interviews/master/images/dfsbfs.gif]
+OA
 ### Topological Sort:
 
 The topological sort is an algorithm that "sorts" vertices only in a
-***Directed Acyclic Graph***. We make use of the concept of in-degree for each
+OA***Directed Acyclic Graph***. We make use of the concept of in-degree for each
 vertex to implement the topological sort algorithm. The basic idea of the
 algorithm is that if there is a vertex **A** with 0 in-degree and is *directed*
 to another vertex **B**, then **A** comes before **B** in the graph.
@@ -105,7 +105,7 @@ to another vertex **B**, then **A** comes before **B** in the graph.
 The algorithm is implemented using a simple BFS traversal with the added
 condition that the vertex is enqueued only if the in-degree is 0. Since a BFS
 traversal is used, the overall time complexity is simply *O(|V| + |E|)*.
-
+OA
 ### Shortest Path using BFS:
 
 The shortest path between two vertices in a graph is a path such that the total
@@ -130,7 +130,7 @@ is *O(V<sup>2</sup>)* but is reduced to
 *O(|V| + |E|log|V|)* when implemented using a min-priority queue.
 
 
-![](https://raw.githubusercontent.com/kdn251/interviews/master/images/dijkstra.gif)
+![][https://raw.githubusercontent.com/kdn251/interviews/master/images/dijkstra.gif]
 ### Minimum Spanning Trees (MST):
 
 A spanning tree is essentially a tree that connects all the vertices in a graph
@@ -144,9 +144,9 @@ that has the minimum weight from that vertex and we add it to the spanning tree.
 As this algorithm makes use of a min-priority queue,
 the overall time complexity is *O(|V| + |E|log|V|)*.
 
-![](https://raw.githubusercontent.com/kdn251/interviews/master/images/prim.gif)
+![][https://raw.githubusercontent.com/kdn251/interviews/master/images/prim.gif]
 
-## Time Complexity Cheatsheet
+## Time Complexity
 
 | Algorithm 						| Time Complexity     				| Notes     			|
 | :------------- 					| :------------- 					|	:------------- 		|
@@ -156,9 +156,4 @@ the overall time complexity is *O(|V| + |E|log|V|)*.
 | **Dijkstra's Algorithm** 			| *O(V + ElogV)*						|Implemented using a min priority queue|
 | **Prim's Algorithm** 				| *O(V + ElogV)*						|Implemented using a min priority queue|
 
-
-
-## References
-
-* GIFs are taken from [here](https://github.com/kdn251/interviews).
 
